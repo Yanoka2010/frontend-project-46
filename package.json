@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "simple-git-hooks": "^2.11.1"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
