@@ -15,7 +15,7 @@ export function parseFile(filepath) {
   const fileData = fs.readFileSync(absPath, 'utf-8');
   if (absPath.includes('.json')) {
     return parseJSONData(fileData);
-  } else if (absPath.includes('.yaml') || absPath.includes('.yml')) {
+  } if (absPath.includes('.yaml') || absPath.includes('.yml')) {
     return parseYAMLData(fileData);
   }
   return null;
